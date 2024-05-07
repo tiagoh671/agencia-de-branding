@@ -1,0 +1,50 @@
+.white_mode{
+  background-color: #fff;
+}
+
+.white_mode .imageTema{
+  border: 1px solid #000;
+}
+
+.dark_mode{
+  background-color: #000;
+}
+
+.dark_mode .imageTema{
+  border: 1px solid #fff;
+  width: 40px;
+  border-radius: 30px;
+  padding: 7px;
+}
+
+.dark_mode button{
+  border: none;
+  background-color: #000;
+}
+
+header{
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 40px;
+  height: 30px;
+}
+
+header button{
+  border: none;
+  background-color: #fff;
+}
+
+.imageTema{
+  width: 40px;
+  border-radius: 30px;
+  padding: 7px;
+}
+
+button:hover{
+  cursor: pointer;
+}

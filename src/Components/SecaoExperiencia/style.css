@@ -1,0 +1,59 @@
+.secao-exp{
+  width: 100%;
+  background-color: #f6f8fc;
+}
+
+#dark_mode{
+  background-color: #393838;
+}
+
+.dark_mode h2{
+  color: #ccccc4;
+}
+
+.dark_mode p{
+  color: #9F9F9F;
+}
+
+.container-exp{
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 0;
+}
+
+.container-exp h2{
+  font-size: 50px;
+}
+
+.secao-exp hr{
+  width: 60px;
+  height: 3px;
+  background-color: #feb633;
+  margin: 0 auto;
+  border: 0;
+}
+
+.secao-exp p{
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  color: #8a8fa3;
+}
+
+.container-card{
+  width: 100%;
+  min-width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1000px){
+  .container-exp{
+    margin: 0 20px;
+  }
+}

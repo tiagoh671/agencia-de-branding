@@ -1,0 +1,29 @@
+.card{
+  width: calc(980px /3);
+  border: 1px solid #e8e8e9;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.card p{
+  margin: 0;
+  text-align: left;
+}
+
+.dark_mode h3{
+  color: #fff;
+}
+
+.dark_mode .card{
+  border: 1px solid #3d3c3c;
+}
+@media screen and (max-width: 1000px){
+  .card{
+    width: 100%;
+    margin: 0 20px;
+  }
+}
